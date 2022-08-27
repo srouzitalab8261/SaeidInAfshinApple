@@ -1,0 +1,1100 @@
+2022-05-27 15:28:47.144 +10:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-05-27 15:28:47.271 +10:00 [DBG] Hosting starting
+2022-05-27 15:28:47.281 +10:00 [INF] User profile is available. Using '/Users/afshintm/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-05-27 15:28:47.284 +10:00 [DBG] Reading data from file '/Users/afshintm/.aspnet/DataProtection-Keys/key-ff48eb51-5744-4973-87b3-bd29873156b5.xml'.
+2022-05-27 15:28:47.290 +10:00 [DBG] Reading data from file '/Users/afshintm/.aspnet/DataProtection-Keys/key-dda2936b-f847-4fe5-a4d0-2d26aadfc35d.xml'.
+2022-05-27 15:28:47.299 +10:00 [DBG] Found key {ff48eb51-5744-4973-87b3-bd29873156b5}.
+2022-05-27 15:28:47.303 +10:00 [DBG] Found key {dda2936b-f847-4fe5-a4d0-2d26aadfc35d}.
+2022-05-27 15:28:47.313 +10:00 [DBG] Considering key {dda2936b-f847-4fe5-a4d0-2d26aadfc35d} with expiration date 2020-10-21 11:47:39Z as default key.
+2022-05-27 15:28:47.313 +10:00 [DBG] Key {dda2936b-f847-4fe5-a4d0-2d26aadfc35d} is no longer under consideration as default key because it is expired, revoked, or cannot be deciphered.
+2022-05-27 15:28:47.317 +10:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.5.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-05-27 15:28:47.321 +10:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2022-05-27 15:28:47.321 +10:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2022-05-27 15:28:47.335 +10:00 [DBG] Repository contains no viable default key. Caller should generate a key with immediate activation.
+2022-05-27 15:28:47.336 +10:00 [DBG] Policy resolution states that a new key should be added to the key ring.
+2022-05-27 15:28:47.342 +10:00 [INF] Creating key {2175d88b-dd82-4c77-a5e6-27f2b4c48372} with creation date 2022-05-27 05:28:47Z, activation date 2022-05-27 05:28:47Z, and expiration date 2022-08-25 05:28:47Z.
+2022-05-27 15:28:47.352 +10:00 [DBG] Descriptor deserializer type for key {2175d88b-dd82-4c77-a5e6-27f2b4c48372} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2022-05-27 15:28:47.353 +10:00 [DBG] No key escrow sink found. Not writing key {2175d88b-dd82-4c77-a5e6-27f2b4c48372} to escrow.
+2022-05-27 15:28:47.353 +10:00 [WRN] No XML encryptor configured. Key {2175d88b-dd82-4c77-a5e6-27f2b4c48372} may be persisted to storage in unencrypted form.
+2022-05-27 15:28:47.354 +10:00 [INF] Writing data to file '/Users/afshintm/.aspnet/DataProtection-Keys/key-2175d88b-dd82-4c77-a5e6-27f2b4c48372.xml'.
+2022-05-27 15:28:47.355 +10:00 [DBG] Key cache expiration token triggered by 'CreateNewKey' operation.
+2022-05-27 15:28:47.355 +10:00 [DBG] Reading data from file '/Users/afshintm/.aspnet/DataProtection-Keys/key-ff48eb51-5744-4973-87b3-bd29873156b5.xml'.
+2022-05-27 15:28:47.356 +10:00 [DBG] Reading data from file '/Users/afshintm/.aspnet/DataProtection-Keys/key-2175d88b-dd82-4c77-a5e6-27f2b4c48372.xml'.
+2022-05-27 15:28:47.356 +10:00 [DBG] Reading data from file '/Users/afshintm/.aspnet/DataProtection-Keys/key-dda2936b-f847-4fe5-a4d0-2d26aadfc35d.xml'.
+2022-05-27 15:28:47.356 +10:00 [DBG] Found key {ff48eb51-5744-4973-87b3-bd29873156b5}.
+2022-05-27 15:28:47.357 +10:00 [DBG] Found key {2175d88b-dd82-4c77-a5e6-27f2b4c48372}.
+2022-05-27 15:28:47.357 +10:00 [DBG] Found key {dda2936b-f847-4fe5-a4d0-2d26aadfc35d}.
+2022-05-27 15:28:47.357 +10:00 [DBG] Considering key {2175d88b-dd82-4c77-a5e6-27f2b4c48372} with expiration date 2022-08-25 05:28:47Z as default key.
+2022-05-27 15:28:47.357 +10:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-05-27 15:28:47.358 +10:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2022-05-27 15:28:47.358 +10:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2022-05-27 15:28:47.359 +10:00 [DBG] Using key {2175d88b-dd82-4c77-a5e6-27f2b4c48372} as the default key.
+2022-05-27 15:28:47.360 +10:00 [DBG] Key ring with default key {2175d88b-dd82-4c77-a5e6-27f2b4c48372} was loaded during application startup.
+2022-05-27 15:28:47.514 +10:00 [DBG] Using development certificate: CN=localhost (Thumbprint: EDB3FFE510A8DB15199176C786A6CAFB5D664CEA)
+2022-05-27 15:28:47.531 +10:00 [INF] Now listening on: https://localhost:7169
+2022-05-27 15:28:47.531 +10:00 [INF] Now listening on: http://localhost:5169
+2022-05-27 15:28:47.531 +10:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-05-27 15:28:47.531 +10:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-27 15:28:47.532 +10:00 [INF] Hosting environment: Development
+2022-05-27 15:28:47.532 +10:00 [INF] Content root path: /Users/afshintm/Repos/Saeid/Resources/ASP-NET Cre 6 Web API Fundamentals-Pluralsight/asp-dot-net-core-6-web-api-fundamentals/10/demos/start/CityInfo.API/
+2022-05-27 15:28:47.532 +10:00 [DBG] Hosting started
+2022-05-27 15:34:22.606 +10:00 [DBG] Connection id "0HMHVKA7021F3" accepted.
+2022-05-27 15:34:22.607 +10:00 [DBG] Connection id "0HMHVKA7021F4" accepted.
+2022-05-27 15:34:22.607 +10:00 [DBG] Connection id "0HMHVKA7021F4" started.
+2022-05-27 15:34:22.607 +10:00 [DBG] Connection id "0HMHVKA7021F3" started.
+2022-05-27 15:34:22.623 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:22.656 +10:00 [DBG] Connection id "0HMHVKA7021F3" stopped.
+2022-05-27 15:34:22.659 +10:00 [DBG] Connection id "0HMHVKA7021F3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:22.675 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:22.676 +10:00 [DBG] Connection id "0HMHVKA7021F4" stopped.
+2022-05-27 15:34:22.679 +10:00 [DBG] Connection id "0HMHVKA7021F4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:22.688 +10:00 [DBG] Connection id "0HMHVKA7021F5" accepted.
+2022-05-27 15:34:22.688 +10:00 [DBG] Connection id "0HMHVKA7021F5" started.
+2022-05-27 15:34:22.690 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:22.692 +10:00 [DBG] Connection id "0HMHVKA7021F5" stopped.
+2022-05-27 15:34:22.692 +10:00 [DBG] Connection id "0HMHVKA7021F5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:23.732 +10:00 [DBG] Connection id "0HMHVKA7021F6" accepted.
+2022-05-27 15:34:23.732 +10:00 [DBG] Connection id "0HMHVKA7021F7" accepted.
+2022-05-27 15:34:23.732 +10:00 [DBG] Connection id "0HMHVKA7021F7" started.
+2022-05-27 15:34:23.732 +10:00 [DBG] Connection id "0HMHVKA7021F6" started.
+2022-05-27 15:34:23.741 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:23.741 +10:00 [DBG] Connection id "0HMHVKA7021F6" stopped.
+2022-05-27 15:34:23.741 +10:00 [DBG] Connection id "0HMHVKA7021F6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:23.742 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:23.742 +10:00 [DBG] Connection id "0HMHVKA7021F7" stopped.
+2022-05-27 15:34:23.743 +10:00 [DBG] Connection id "0HMHVKA7021F7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:23.743 +10:00 [DBG] Connection id "0HMHVKA7021F8" accepted.
+2022-05-27 15:34:23.743 +10:00 [DBG] Connection id "0HMHVKA7021F8" started.
+2022-05-27 15:34:23.744 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:23.744 +10:00 [DBG] Connection id "0HMHVKA7021F8" stopped.
+2022-05-27 15:34:23.744 +10:00 [DBG] Connection id "0HMHVKA7021F8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:28.753 +10:00 [DBG] Connection id "0HMHVKA7021F9" accepted.
+2022-05-27 15:34:28.754 +10:00 [DBG] Connection id "0HMHVKA7021FA" accepted.
+2022-05-27 15:34:28.754 +10:00 [DBG] Connection id "0HMHVKA7021FA" started.
+2022-05-27 15:34:28.754 +10:00 [DBG] Connection id "0HMHVKA7021F9" started.
+2022-05-27 15:34:28.764 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:28.764 +10:00 [DBG] Connection id "0HMHVKA7021F9" stopped.
+2022-05-27 15:34:28.764 +10:00 [DBG] Connection id "0HMHVKA7021F9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:28.765 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:28.765 +10:00 [DBG] Connection id "0HMHVKA7021FA" stopped.
+2022-05-27 15:34:28.766 +10:00 [DBG] Connection id "0HMHVKA7021FA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:28.766 +10:00 [DBG] Connection id "0HMHVKA7021FB" accepted.
+2022-05-27 15:34:28.766 +10:00 [DBG] Connection id "0HMHVKA7021FB" started.
+2022-05-27 15:34:28.767 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:28.767 +10:00 [DBG] Connection id "0HMHVKA7021FB" stopped.
+2022-05-27 15:34:28.767 +10:00 [DBG] Connection id "0HMHVKA7021FB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:45.486 +10:00 [DBG] Connection id "0HMHVKA7021FC" accepted.
+2022-05-27 15:34:45.486 +10:00 [DBG] Connection id "0HMHVKA7021FD" accepted.
+2022-05-27 15:34:45.486 +10:00 [DBG] Connection id "0HMHVKA7021FC" started.
+2022-05-27 15:34:45.487 +10:00 [DBG] Connection id "0HMHVKA7021FD" started.
+2022-05-27 15:34:45.500 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:45.501 +10:00 [DBG] Connection id "0HMHVKA7021FC" stopped.
+2022-05-27 15:34:45.501 +10:00 [DBG] Connection id "0HMHVKA7021FC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:45.502 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:45.503 +10:00 [DBG] Connection id "0HMHVKA7021FD" stopped.
+2022-05-27 15:34:45.503 +10:00 [DBG] Connection id "0HMHVKA7021FD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:45.503 +10:00 [DBG] Connection id "0HMHVKA7021FE" accepted.
+2022-05-27 15:34:45.504 +10:00 [DBG] Connection id "0HMHVKA7021FE" started.
+2022-05-27 15:34:45.504 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:45.504 +10:00 [DBG] Connection id "0HMHVKA7021FE" stopped.
+2022-05-27 15:34:45.505 +10:00 [DBG] Connection id "0HMHVKA7021FE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:46.531 +10:00 [DBG] Connection id "0HMHVKA7021FF" accepted.
+2022-05-27 15:34:46.531 +10:00 [DBG] Connection id "0HMHVKA7021FG" accepted.
+2022-05-27 15:34:46.531 +10:00 [DBG] Connection id "0HMHVKA7021FF" started.
+2022-05-27 15:34:46.531 +10:00 [DBG] Connection id "0HMHVKA7021FG" started.
+2022-05-27 15:34:46.540 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:46.541 +10:00 [DBG] Connection id "0HMHVKA7021FF" stopped.
+2022-05-27 15:34:46.541 +10:00 [DBG] Connection id "0HMHVKA7021FF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:46.542 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:46.542 +10:00 [DBG] Connection id "0HMHVKA7021FG" stopped.
+2022-05-27 15:34:46.543 +10:00 [DBG] Connection id "0HMHVKA7021FG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:46.543 +10:00 [DBG] Connection id "0HMHVKA7021FH" accepted.
+2022-05-27 15:34:46.543 +10:00 [DBG] Connection id "0HMHVKA7021FH" started.
+2022-05-27 15:34:46.544 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:46.544 +10:00 [DBG] Connection id "0HMHVKA7021FH" stopped.
+2022-05-27 15:34:46.544 +10:00 [DBG] Connection id "0HMHVKA7021FH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:51.553 +10:00 [DBG] Connection id "0HMHVKA7021FI" accepted.
+2022-05-27 15:34:51.553 +10:00 [DBG] Connection id "0HMHVKA7021FJ" accepted.
+2022-05-27 15:34:51.554 +10:00 [DBG] Connection id "0HMHVKA7021FJ" started.
+2022-05-27 15:34:51.554 +10:00 [DBG] Connection id "0HMHVKA7021FI" started.
+2022-05-27 15:34:51.564 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:51.565 +10:00 [DBG] Connection id "0HMHVKA7021FI" stopped.
+2022-05-27 15:34:51.565 +10:00 [DBG] Connection id "0HMHVKA7021FI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:51.565 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:51.566 +10:00 [DBG] Connection id "0HMHVKA7021FJ" stopped.
+2022-05-27 15:34:51.566 +10:00 [DBG] Connection id "0HMHVKA7021FJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:34:51.568 +10:00 [DBG] Connection id "0HMHVKA7021FK" accepted.
+2022-05-27 15:34:51.568 +10:00 [DBG] Connection id "0HMHVKA7021FK" started.
+2022-05-27 15:34:51.569 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:34:51.570 +10:00 [DBG] Connection id "0HMHVKA7021FK" stopped.
+2022-05-27 15:34:51.571 +10:00 [DBG] Connection id "0HMHVKA7021FK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:01.070 +10:00 [DBG] Connection id "0HMHVKA7021FL" accepted.
+2022-05-27 15:35:01.070 +10:00 [DBG] Connection id "0HMHVKA7021FL" started.
+2022-05-27 15:35:01.070 +10:00 [DBG] Connection id "0HMHVKA7021FM" accepted.
+2022-05-27 15:35:01.070 +10:00 [DBG] Connection id "0HMHVKA7021FM" started.
+2022-05-27 15:35:01.082 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:01.083 +10:00 [DBG] Connection id "0HMHVKA7021FL" stopped.
+2022-05-27 15:35:01.083 +10:00 [DBG] Connection id "0HMHVKA7021FL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:01.083 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:01.084 +10:00 [DBG] Connection id "0HMHVKA7021FM" stopped.
+2022-05-27 15:35:01.084 +10:00 [DBG] Connection id "0HMHVKA7021FM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:01.086 +10:00 [DBG] Connection id "0HMHVKA7021FN" accepted.
+2022-05-27 15:35:01.086 +10:00 [DBG] Connection id "0HMHVKA7021FN" started.
+2022-05-27 15:35:01.087 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:01.088 +10:00 [DBG] Connection id "0HMHVKA7021FN" stopped.
+2022-05-27 15:35:01.088 +10:00 [DBG] Connection id "0HMHVKA7021FN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:02.116 +10:00 [DBG] Connection id "0HMHVKA7021FO" accepted.
+2022-05-27 15:35:02.116 +10:00 [DBG] Connection id "0HMHVKA7021FO" started.
+2022-05-27 15:35:02.116 +10:00 [DBG] Connection id "0HMHVKA7021FP" accepted.
+2022-05-27 15:35:02.117 +10:00 [DBG] Connection id "0HMHVKA7021FP" started.
+2022-05-27 15:35:02.126 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:02.127 +10:00 [DBG] Connection id "0HMHVKA7021FO" stopped.
+2022-05-27 15:35:02.127 +10:00 [DBG] Connection id "0HMHVKA7021FO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:02.127 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:02.128 +10:00 [DBG] Connection id "0HMHVKA7021FP" stopped.
+2022-05-27 15:35:02.128 +10:00 [DBG] Connection id "0HMHVKA7021FP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:02.129 +10:00 [DBG] Connection id "0HMHVKA7021FQ" accepted.
+2022-05-27 15:35:02.129 +10:00 [DBG] Connection id "0HMHVKA7021FQ" started.
+2022-05-27 15:35:02.129 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:02.130 +10:00 [DBG] Connection id "0HMHVKA7021FQ" stopped.
+2022-05-27 15:35:02.130 +10:00 [DBG] Connection id "0HMHVKA7021FQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:07.149 +10:00 [DBG] Connection id "0HMHVKA7021FR" accepted.
+2022-05-27 15:35:07.151 +10:00 [DBG] Connection id "0HMHVKA7021FS" accepted.
+2022-05-27 15:35:07.152 +10:00 [DBG] Connection id "0HMHVKA7021FS" started.
+2022-05-27 15:35:07.151 +10:00 [DBG] Connection id "0HMHVKA7021FR" started.
+2022-05-27 15:35:07.194 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:07.195 +10:00 [DBG] Connection id "0HMHVKA7021FR" stopped.
+2022-05-27 15:35:07.196 +10:00 [DBG] Connection id "0HMHVKA7021FR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:07.197 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:07.198 +10:00 [DBG] Connection id "0HMHVKA7021FS" stopped.
+2022-05-27 15:35:07.198 +10:00 [DBG] Connection id "0HMHVKA7021FS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:07.205 +10:00 [DBG] Connection id "0HMHVKA7021FT" accepted.
+2022-05-27 15:35:07.206 +10:00 [DBG] Connection id "0HMHVKA7021FT" started.
+2022-05-27 15:35:07.206 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:07.208 +10:00 [DBG] Connection id "0HMHVKA7021FT" stopped.
+2022-05-27 15:35:07.208 +10:00 [DBG] Connection id "0HMHVKA7021FT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:37.219 +10:00 [DBG] Connection id "0HMHVKA7021FU" accepted.
+2022-05-27 15:35:37.220 +10:00 [DBG] Connection id "0HMHVKA7021FV" accepted.
+2022-05-27 15:35:37.221 +10:00 [DBG] Connection id "0HMHVKA7021FV" started.
+2022-05-27 15:35:37.221 +10:00 [DBG] Connection id "0HMHVKA7021FU" started.
+2022-05-27 15:35:37.244 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:37.245 +10:00 [DBG] Connection id "0HMHVKA7021FU" stopped.
+2022-05-27 15:35:37.246 +10:00 [DBG] Connection id "0HMHVKA7021FU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:37.249 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:37.251 +10:00 [DBG] Connection id "0HMHVKA7021FV" stopped.
+2022-05-27 15:35:37.251 +10:00 [DBG] Connection id "0HMHVKA7021FV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:35:37.254 +10:00 [DBG] Connection id "0HMHVKA7021G0" accepted.
+2022-05-27 15:35:37.254 +10:00 [DBG] Connection id "0HMHVKA7021G0" started.
+2022-05-27 15:35:37.255 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:35:37.256 +10:00 [DBG] Connection id "0HMHVKA7021G0" stopped.
+2022-05-27 15:35:37.256 +10:00 [DBG] Connection id "0HMHVKA7021G0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:36:35.508 +10:00 [DBG] Connection id "0HMHVKA7021G1" accepted.
+2022-05-27 15:36:35.509 +10:00 [DBG] Connection id "0HMHVKA7021G2" accepted.
+2022-05-27 15:36:35.509 +10:00 [DBG] Connection id "0HMHVKA7021G1" started.
+2022-05-27 15:36:35.509 +10:00 [DBG] Connection id "0HMHVKA7021G2" started.
+2022-05-27 15:36:35.526 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:36:35.528 +10:00 [DBG] Connection id "0HMHVKA7021G1" stopped.
+2022-05-27 15:36:35.528 +10:00 [DBG] Connection id "0HMHVKA7021G1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:36:35.532 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:36:35.533 +10:00 [DBG] Connection id "0HMHVKA7021G2" stopped.
+2022-05-27 15:36:35.533 +10:00 [DBG] Connection id "0HMHVKA7021G2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:36:35.534 +10:00 [DBG] Connection id "0HMHVKA7021G3" accepted.
+2022-05-27 15:36:35.534 +10:00 [DBG] Connection id "0HMHVKA7021G3" started.
+2022-05-27 15:36:35.535 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:36:35.535 +10:00 [DBG] Connection id "0HMHVKA7021G3" stopped.
+2022-05-27 15:36:35.535 +10:00 [DBG] Connection id "0HMHVKA7021G3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:36:36.566 +10:00 [DBG] Connection id "0HMHVKA7021G4" accepted.
+2022-05-27 15:36:36.567 +10:00 [DBG] Connection id "0HMHVKA7021G5" accepted.
+2022-05-27 15:36:36.567 +10:00 [DBG] Connection id "0HMHVKA7021G4" started.
+2022-05-27 15:36:36.567 +10:00 [DBG] Connection id "0HMHVKA7021G5" started.
+2022-05-27 15:36:36.574 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:36:36.574 +10:00 [DBG] Connection id "0HMHVKA7021G4" stopped.
+2022-05-27 15:36:36.575 +10:00 [DBG] Connection id "0HMHVKA7021G4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:36:36.575 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:36:36.575 +10:00 [DBG] Connection id "0HMHVKA7021G5" stopped.
+2022-05-27 15:36:36.575 +10:00 [DBG] Connection id "0HMHVKA7021G5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:36:36.576 +10:00 [DBG] Connection id "0HMHVKA7021G6" accepted.
+2022-05-27 15:36:36.576 +10:00 [DBG] Connection id "0HMHVKA7021G6" started.
+2022-05-27 15:36:36.576 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:36:36.577 +10:00 [DBG] Connection id "0HMHVKA7021G6" stopped.
+2022-05-27 15:36:36.577 +10:00 [DBG] Connection id "0HMHVKA7021G6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:36:41.589 +10:00 [DBG] Connection id "0HMHVKA7021G7" accepted.
+2022-05-27 15:36:41.589 +10:00 [DBG] Connection id "0HMHVKA7021G7" started.
+2022-05-27 15:36:41.589 +10:00 [DBG] Connection id "0HMHVKA7021G8" accepted.
+2022-05-27 15:36:41.590 +10:00 [DBG] Connection id "0HMHVKA7021G8" started.
+2022-05-27 15:36:41.599 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:36:41.600 +10:00 [DBG] Connection id "0HMHVKA7021G7" stopped.
+2022-05-27 15:36:41.600 +10:00 [DBG] Connection id "0HMHVKA7021G7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:36:41.601 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:36:41.601 +10:00 [DBG] Connection id "0HMHVKA7021G8" stopped.
+2022-05-27 15:36:41.602 +10:00 [DBG] Connection id "0HMHVKA7021G8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:36:41.602 +10:00 [DBG] Connection id "0HMHVKA7021G9" accepted.
+2022-05-27 15:36:41.602 +10:00 [DBG] Connection id "0HMHVKA7021G9" started.
+2022-05-27 15:36:41.603 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:36:41.603 +10:00 [DBG] Connection id "0HMHVKA7021G9" stopped.
+2022-05-27 15:36:41.603 +10:00 [DBG] Connection id "0HMHVKA7021G9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:37:11.612 +10:00 [DBG] Connection id "0HMHVKA7021GA" accepted.
+2022-05-27 15:37:11.613 +10:00 [DBG] Connection id "0HMHVKA7021GA" started.
+2022-05-27 15:37:11.615 +10:00 [DBG] Connection id "0HMHVKA7021GB" accepted.
+2022-05-27 15:37:11.615 +10:00 [DBG] Connection id "0HMHVKA7021GB" started.
+2022-05-27 15:37:11.636 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:37:11.637 +10:00 [DBG] Connection id "0HMHVKA7021GA" stopped.
+2022-05-27 15:37:11.638 +10:00 [DBG] Connection id "0HMHVKA7021GA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:37:11.639 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:37:11.640 +10:00 [DBG] Connection id "0HMHVKA7021GB" stopped.
+2022-05-27 15:37:11.640 +10:00 [DBG] Connection id "0HMHVKA7021GB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:37:11.641 +10:00 [DBG] Connection id "0HMHVKA7021GC" accepted.
+2022-05-27 15:37:11.641 +10:00 [DBG] Connection id "0HMHVKA7021GC" started.
+2022-05-27 15:37:11.641 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:37:11.642 +10:00 [DBG] Connection id "0HMHVKA7021GC" stopped.
+2022-05-27 15:37:11.642 +10:00 [DBG] Connection id "0HMHVKA7021GC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:38:11.654 +10:00 [DBG] Connection id "0HMHVKA7021GD" accepted.
+2022-05-27 15:38:11.654 +10:00 [DBG] Connection id "0HMHVKA7021GE" accepted.
+2022-05-27 15:38:11.654 +10:00 [DBG] Connection id "0HMHVKA7021GD" started.
+2022-05-27 15:38:11.654 +10:00 [DBG] Connection id "0HMHVKA7021GE" started.
+2022-05-27 15:38:11.657 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:38:11.657 +10:00 [DBG] Connection id "0HMHVKA7021GD" stopped.
+2022-05-27 15:38:11.658 +10:00 [DBG] Connection id "0HMHVKA7021GD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:38:11.659 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:38:11.660 +10:00 [DBG] Connection id "0HMHVKA7021GE" stopped.
+2022-05-27 15:38:11.660 +10:00 [DBG] Connection id "0HMHVKA7021GE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:38:11.661 +10:00 [DBG] Connection id "0HMHVKA7021GF" accepted.
+2022-05-27 15:38:11.662 +10:00 [DBG] Connection id "0HMHVKA7021GF" started.
+2022-05-27 15:38:11.662 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:38:11.663 +10:00 [DBG] Connection id "0HMHVKA7021GF" stopped.
+2022-05-27 15:38:11.663 +10:00 [DBG] Connection id "0HMHVKA7021GF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:43:11.665 +10:00 [DBG] Connection id "0HMHVKA7021GG" accepted.
+2022-05-27 15:43:11.668 +10:00 [DBG] Connection id "0HMHVKA7021GH" accepted.
+2022-05-27 15:43:11.668 +10:00 [DBG] Connection id "0HMHVKA7021GH" started.
+2022-05-27 15:43:11.672 +10:00 [DBG] Connection id "0HMHVKA7021GG" started.
+2022-05-27 15:43:11.702 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:43:11.703 +10:00 [DBG] Connection id "0HMHVKA7021GG" stopped.
+2022-05-27 15:43:11.703 +10:00 [DBG] Connection id "0HMHVKA7021GG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:43:11.704 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:43:11.705 +10:00 [DBG] Connection id "0HMHVKA7021GH" stopped.
+2022-05-27 15:43:11.705 +10:00 [DBG] Connection id "0HMHVKA7021GH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:43:11.706 +10:00 [DBG] Connection id "0HMHVKA7021GI" accepted.
+2022-05-27 15:43:11.706 +10:00 [DBG] Connection id "0HMHVKA7021GI" started.
+2022-05-27 15:43:11.706 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:43:11.707 +10:00 [DBG] Connection id "0HMHVKA7021GI" stopped.
+2022-05-27 15:43:11.707 +10:00 [DBG] Connection id "0HMHVKA7021GI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:04.215 +10:00 [DBG] Connection id "0HMHVKA7021GJ" accepted.
+2022-05-27 15:57:04.215 +10:00 [DBG] Connection id "0HMHVKA7021GJ" started.
+2022-05-27 15:57:04.215 +10:00 [DBG] Connection id "0HMHVKA7021GK" accepted.
+2022-05-27 15:57:04.216 +10:00 [DBG] Connection id "0HMHVKA7021GK" started.
+2022-05-27 15:57:04.240 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:04.242 +10:00 [DBG] Connection id "0HMHVKA7021GJ" stopped.
+2022-05-27 15:57:04.242 +10:00 [DBG] Connection id "0HMHVKA7021GJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:04.243 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:04.243 +10:00 [DBG] Connection id "0HMHVKA7021GK" stopped.
+2022-05-27 15:57:04.243 +10:00 [DBG] Connection id "0HMHVKA7021GK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:04.244 +10:00 [DBG] Connection id "0HMHVKA7021GL" accepted.
+2022-05-27 15:57:04.244 +10:00 [DBG] Connection id "0HMHVKA7021GL" started.
+2022-05-27 15:57:04.245 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:04.245 +10:00 [DBG] Connection id "0HMHVKA7021GL" stopped.
+2022-05-27 15:57:04.245 +10:00 [DBG] Connection id "0HMHVKA7021GL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:05.271 +10:00 [DBG] Connection id "0HMHVKA7021GM" accepted.
+2022-05-27 15:57:05.272 +10:00 [DBG] Connection id "0HMHVKA7021GM" started.
+2022-05-27 15:57:05.272 +10:00 [DBG] Connection id "0HMHVKA7021GN" accepted.
+2022-05-27 15:57:05.272 +10:00 [DBG] Connection id "0HMHVKA7021GN" started.
+2022-05-27 15:57:05.281 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:05.281 +10:00 [DBG] Connection id "0HMHVKA7021GM" stopped.
+2022-05-27 15:57:05.281 +10:00 [DBG] Connection id "0HMHVKA7021GM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:05.282 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:05.282 +10:00 [DBG] Connection id "0HMHVKA7021GN" stopped.
+2022-05-27 15:57:05.282 +10:00 [DBG] Connection id "0HMHVKA7021GN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:05.283 +10:00 [DBG] Connection id "0HMHVKA7021GO" accepted.
+2022-05-27 15:57:05.283 +10:00 [DBG] Connection id "0HMHVKA7021GO" started.
+2022-05-27 15:57:05.283 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:05.283 +10:00 [DBG] Connection id "0HMHVKA7021GO" stopped.
+2022-05-27 15:57:05.283 +10:00 [DBG] Connection id "0HMHVKA7021GO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:10.293 +10:00 [DBG] Connection id "0HMHVKA7021GP" accepted.
+2022-05-27 15:57:10.293 +10:00 [DBG] Connection id "0HMHVKA7021GP" started.
+2022-05-27 15:57:10.293 +10:00 [DBG] Connection id "0HMHVKA7021GQ" accepted.
+2022-05-27 15:57:10.293 +10:00 [DBG] Connection id "0HMHVKA7021GQ" started.
+2022-05-27 15:57:10.304 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:10.305 +10:00 [DBG] Connection id "0HMHVKA7021GP" stopped.
+2022-05-27 15:57:10.305 +10:00 [DBG] Connection id "0HMHVKA7021GP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:10.306 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:10.307 +10:00 [DBG] Connection id "0HMHVKA7021GQ" stopped.
+2022-05-27 15:57:10.307 +10:00 [DBG] Connection id "0HMHVKA7021GQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:10.307 +10:00 [DBG] Connection id "0HMHVKA7021GR" accepted.
+2022-05-27 15:57:10.308 +10:00 [DBG] Connection id "0HMHVKA7021GR" started.
+2022-05-27 15:57:10.308 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:10.309 +10:00 [DBG] Connection id "0HMHVKA7021GR" stopped.
+2022-05-27 15:57:10.309 +10:00 [DBG] Connection id "0HMHVKA7021GR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:11.744 +10:00 [DBG] Connection id "0HMHVKA7021GS" accepted.
+2022-05-27 15:57:11.744 +10:00 [DBG] Connection id "0HMHVKA7021GT" accepted.
+2022-05-27 15:57:11.744 +10:00 [DBG] Connection id "0HMHVKA7021GS" started.
+2022-05-27 15:57:11.744 +10:00 [DBG] Connection id "0HMHVKA7021GT" started.
+2022-05-27 15:57:11.755 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:11.756 +10:00 [DBG] Connection id "0HMHVKA7021GS" stopped.
+2022-05-27 15:57:11.756 +10:00 [DBG] Connection id "0HMHVKA7021GS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:11.756 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:11.757 +10:00 [DBG] Connection id "0HMHVKA7021GT" stopped.
+2022-05-27 15:57:11.757 +10:00 [DBG] Connection id "0HMHVKA7021GT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:11.758 +10:00 [DBG] Connection id "0HMHVKA7021GU" accepted.
+2022-05-27 15:57:11.761 +10:00 [DBG] Connection id "0HMHVKA7021GU" started.
+2022-05-27 15:57:11.761 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:11.762 +10:00 [DBG] Connection id "0HMHVKA7021GU" stopped.
+2022-05-27 15:57:11.762 +10:00 [DBG] Connection id "0HMHVKA7021GU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:12.788 +10:00 [DBG] Connection id "0HMHVKA7021GV" accepted.
+2022-05-27 15:57:12.788 +10:00 [DBG] Connection id "0HMHVKA7021H0" accepted.
+2022-05-27 15:57:12.789 +10:00 [DBG] Connection id "0HMHVKA7021GV" started.
+2022-05-27 15:57:12.789 +10:00 [DBG] Connection id "0HMHVKA7021H0" started.
+2022-05-27 15:57:12.796 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:12.797 +10:00 [DBG] Connection id "0HMHVKA7021GV" stopped.
+2022-05-27 15:57:12.797 +10:00 [DBG] Connection id "0HMHVKA7021GV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:12.797 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:12.797 +10:00 [DBG] Connection id "0HMHVKA7021H0" stopped.
+2022-05-27 15:57:12.798 +10:00 [DBG] Connection id "0HMHVKA7021H0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:12.798 +10:00 [DBG] Connection id "0HMHVKA7021H1" accepted.
+2022-05-27 15:57:12.798 +10:00 [DBG] Connection id "0HMHVKA7021H1" started.
+2022-05-27 15:57:12.798 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:12.799 +10:00 [DBG] Connection id "0HMHVKA7021H1" stopped.
+2022-05-27 15:57:12.799 +10:00 [DBG] Connection id "0HMHVKA7021H1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:17.809 +10:00 [DBG] Connection id "0HMHVKA7021H2" accepted.
+2022-05-27 15:57:17.810 +10:00 [DBG] Connection id "0HMHVKA7021H3" accepted.
+2022-05-27 15:57:17.810 +10:00 [DBG] Connection id "0HMHVKA7021H2" started.
+2022-05-27 15:57:17.810 +10:00 [DBG] Connection id "0HMHVKA7021H3" started.
+2022-05-27 15:57:17.822 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:17.823 +10:00 [DBG] Connection id "0HMHVKA7021H2" stopped.
+2022-05-27 15:57:17.823 +10:00 [DBG] Connection id "0HMHVKA7021H2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:17.823 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:17.824 +10:00 [DBG] Connection id "0HMHVKA7021H3" stopped.
+2022-05-27 15:57:17.824 +10:00 [DBG] Connection id "0HMHVKA7021H3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:17.824 +10:00 [DBG] Connection id "0HMHVKA7021H4" accepted.
+2022-05-27 15:57:17.825 +10:00 [DBG] Connection id "0HMHVKA7021H4" started.
+2022-05-27 15:57:17.825 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:17.825 +10:00 [DBG] Connection id "0HMHVKA7021H4" stopped.
+2022-05-27 15:57:17.825 +10:00 [DBG] Connection id "0HMHVKA7021H4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:19.017 +10:00 [DBG] Connection id "0HMHVKA7021H5" accepted.
+2022-05-27 15:57:19.018 +10:00 [DBG] Connection id "0HMHVKA7021H6" accepted.
+2022-05-27 15:57:19.018 +10:00 [DBG] Connection id "0HMHVKA7021H6" started.
+2022-05-27 15:57:19.018 +10:00 [DBG] Connection id "0HMHVKA7021H5" started.
+2022-05-27 15:57:19.032 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:19.032 +10:00 [DBG] Connection id "0HMHVKA7021H5" stopped.
+2022-05-27 15:57:19.033 +10:00 [DBG] Connection id "0HMHVKA7021H5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:19.033 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:19.033 +10:00 [DBG] Connection id "0HMHVKA7021H6" stopped.
+2022-05-27 15:57:19.033 +10:00 [DBG] Connection id "0HMHVKA7021H6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:19.034 +10:00 [DBG] Connection id "0HMHVKA7021H7" accepted.
+2022-05-27 15:57:19.034 +10:00 [DBG] Connection id "0HMHVKA7021H7" started.
+2022-05-27 15:57:19.034 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:19.034 +10:00 [DBG] Connection id "0HMHVKA7021H7" stopped.
+2022-05-27 15:57:19.035 +10:00 [DBG] Connection id "0HMHVKA7021H7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:49.062 +10:00 [DBG] Connection id "0HMHVKA7021H8" accepted.
+2022-05-27 15:57:49.062 +10:00 [DBG] Connection id "0HMHVKA7021H8" started.
+2022-05-27 15:57:49.062 +10:00 [DBG] Connection id "0HMHVKA7021H9" accepted.
+2022-05-27 15:57:49.063 +10:00 [DBG] Connection id "0HMHVKA7021H9" started.
+2022-05-27 15:57:49.076 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:49.076 +10:00 [DBG] Connection id "0HMHVKA7021H8" stopped.
+2022-05-27 15:57:49.076 +10:00 [DBG] Connection id "0HMHVKA7021H8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:49.077 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:49.077 +10:00 [DBG] Connection id "0HMHVKA7021H9" stopped.
+2022-05-27 15:57:49.077 +10:00 [DBG] Connection id "0HMHVKA7021H9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 15:57:49.078 +10:00 [DBG] Connection id "0HMHVKA7021HA" accepted.
+2022-05-27 15:57:49.078 +10:00 [DBG] Connection id "0HMHVKA7021HA" started.
+2022-05-27 15:57:49.079 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 15:57:49.079 +10:00 [DBG] Connection id "0HMHVKA7021HA" stopped.
+2022-05-27 15:57:49.079 +10:00 [DBG] Connection id "0HMHVKA7021HA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:18.993 +10:00 [DBG] Connection id "0HMHVKA7021HB" accepted.
+2022-05-27 16:01:18.993 +10:00 [DBG] Connection id "0HMHVKA7021HC" accepted.
+2022-05-27 16:01:18.993 +10:00 [DBG] Connection id "0HMHVKA7021HB" started.
+2022-05-27 16:01:18.993 +10:00 [DBG] Connection id "0HMHVKA7021HC" started.
+2022-05-27 16:01:19.010 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:19.011 +10:00 [DBG] Connection id "0HMHVKA7021HB" stopped.
+2022-05-27 16:01:19.011 +10:00 [DBG] Connection id "0HMHVKA7021HB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:19.012 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:19.012 +10:00 [DBG] Connection id "0HMHVKA7021HC" stopped.
+2022-05-27 16:01:19.012 +10:00 [DBG] Connection id "0HMHVKA7021HC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:19.013 +10:00 [DBG] Connection id "0HMHVKA7021HD" accepted.
+2022-05-27 16:01:19.013 +10:00 [DBG] Connection id "0HMHVKA7021HD" started.
+2022-05-27 16:01:19.013 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:19.014 +10:00 [DBG] Connection id "0HMHVKA7021HD" stopped.
+2022-05-27 16:01:19.014 +10:00 [DBG] Connection id "0HMHVKA7021HD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:20.110 +10:00 [DBG] Connection id "0HMHVKA7021HE" accepted.
+2022-05-27 16:01:20.111 +10:00 [DBG] Connection id "0HMHVKA7021HE" started.
+2022-05-27 16:01:20.111 +10:00 [DBG] Connection id "0HMHVKA7021HF" accepted.
+2022-05-27 16:01:20.111 +10:00 [DBG] Connection id "0HMHVKA7021HF" started.
+2022-05-27 16:01:20.122 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:20.123 +10:00 [DBG] Connection id "0HMHVKA7021HE" stopped.
+2022-05-27 16:01:20.123 +10:00 [DBG] Connection id "0HMHVKA7021HE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:20.123 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:20.124 +10:00 [DBG] Connection id "0HMHVKA7021HF" stopped.
+2022-05-27 16:01:20.124 +10:00 [DBG] Connection id "0HMHVKA7021HF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:20.125 +10:00 [DBG] Connection id "0HMHVKA7021HG" accepted.
+2022-05-27 16:01:20.125 +10:00 [DBG] Connection id "0HMHVKA7021HG" started.
+2022-05-27 16:01:20.125 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:20.126 +10:00 [DBG] Connection id "0HMHVKA7021HG" stopped.
+2022-05-27 16:01:20.126 +10:00 [DBG] Connection id "0HMHVKA7021HG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:25.136 +10:00 [DBG] Connection id "0HMHVKA7021HH" accepted.
+2022-05-27 16:01:25.136 +10:00 [DBG] Connection id "0HMHVKA7021HI" accepted.
+2022-05-27 16:01:25.136 +10:00 [DBG] Connection id "0HMHVKA7021HH" started.
+2022-05-27 16:01:25.136 +10:00 [DBG] Connection id "0HMHVKA7021HI" started.
+2022-05-27 16:01:25.157 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:25.159 +10:00 [DBG] Connection id "0HMHVKA7021HH" stopped.
+2022-05-27 16:01:25.159 +10:00 [DBG] Connection id "0HMHVKA7021HH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:25.160 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:25.161 +10:00 [DBG] Connection id "0HMHVKA7021HI" stopped.
+2022-05-27 16:01:25.161 +10:00 [DBG] Connection id "0HMHVKA7021HI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:25.162 +10:00 [DBG] Connection id "0HMHVKA7021HJ" accepted.
+2022-05-27 16:01:25.162 +10:00 [DBG] Connection id "0HMHVKA7021HJ" started.
+2022-05-27 16:01:25.163 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:25.163 +10:00 [DBG] Connection id "0HMHVKA7021HJ" stopped.
+2022-05-27 16:01:25.163 +10:00 [DBG] Connection id "0HMHVKA7021HJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:39.552 +10:00 [DBG] Connection id "0HMHVKA7021HK" accepted.
+2022-05-27 16:01:39.553 +10:00 [DBG] Connection id "0HMHVKA7021HK" started.
+2022-05-27 16:01:39.553 +10:00 [DBG] Connection id "0HMHVKA7021HL" accepted.
+2022-05-27 16:01:39.553 +10:00 [DBG] Connection id "0HMHVKA7021HL" started.
+2022-05-27 16:01:39.583 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:39.584 +10:00 [DBG] Connection id "0HMHVKA7021HK" stopped.
+2022-05-27 16:01:39.584 +10:00 [DBG] Connection id "0HMHVKA7021HK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:39.585 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:39.585 +10:00 [DBG] Connection id "0HMHVKA7021HL" stopped.
+2022-05-27 16:01:39.585 +10:00 [DBG] Connection id "0HMHVKA7021HL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:39.586 +10:00 [DBG] Connection id "0HMHVKA7021HM" accepted.
+2022-05-27 16:01:39.586 +10:00 [DBG] Connection id "0HMHVKA7021HM" started.
+2022-05-27 16:01:39.587 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:39.587 +10:00 [DBG] Connection id "0HMHVKA7021HM" stopped.
+2022-05-27 16:01:39.587 +10:00 [DBG] Connection id "0HMHVKA7021HM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:40.611 +10:00 [DBG] Connection id "0HMHVKA7021HN" accepted.
+2022-05-27 16:01:40.611 +10:00 [DBG] Connection id "0HMHVKA7021HN" started.
+2022-05-27 16:01:40.611 +10:00 [DBG] Connection id "0HMHVKA7021HO" accepted.
+2022-05-27 16:01:40.611 +10:00 [DBG] Connection id "0HMHVKA7021HO" started.
+2022-05-27 16:01:40.619 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:40.619 +10:00 [DBG] Connection id "0HMHVKA7021HN" stopped.
+2022-05-27 16:01:40.620 +10:00 [DBG] Connection id "0HMHVKA7021HN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:40.620 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:40.621 +10:00 [DBG] Connection id "0HMHVKA7021HO" stopped.
+2022-05-27 16:01:40.621 +10:00 [DBG] Connection id "0HMHVKA7021HO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:40.621 +10:00 [DBG] Connection id "0HMHVKA7021HP" accepted.
+2022-05-27 16:01:40.621 +10:00 [DBG] Connection id "0HMHVKA7021HP" started.
+2022-05-27 16:01:40.622 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:40.622 +10:00 [DBG] Connection id "0HMHVKA7021HP" stopped.
+2022-05-27 16:01:40.623 +10:00 [DBG] Connection id "0HMHVKA7021HP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:45.631 +10:00 [DBG] Connection id "0HMHVKA7021HQ" accepted.
+2022-05-27 16:01:45.632 +10:00 [DBG] Connection id "0HMHVKA7021HR" accepted.
+2022-05-27 16:01:45.633 +10:00 [DBG] Connection id "0HMHVKA7021HQ" started.
+2022-05-27 16:01:45.633 +10:00 [DBG] Connection id "0HMHVKA7021HR" started.
+2022-05-27 16:01:45.641 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:45.641 +10:00 [DBG] Connection id "0HMHVKA7021HQ" stopped.
+2022-05-27 16:01:45.642 +10:00 [DBG] Connection id "0HMHVKA7021HQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:45.643 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:45.643 +10:00 [DBG] Connection id "0HMHVKA7021HR" stopped.
+2022-05-27 16:01:45.643 +10:00 [DBG] Connection id "0HMHVKA7021HR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:01:45.644 +10:00 [DBG] Connection id "0HMHVKA7021HS" accepted.
+2022-05-27 16:01:45.644 +10:00 [DBG] Connection id "0HMHVKA7021HS" started.
+2022-05-27 16:01:45.644 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:01:45.645 +10:00 [DBG] Connection id "0HMHVKA7021HS" stopped.
+2022-05-27 16:01:45.645 +10:00 [DBG] Connection id "0HMHVKA7021HS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:02:15.654 +10:00 [DBG] Connection id "0HMHVKA7021HT" accepted.
+2022-05-27 16:02:15.655 +10:00 [DBG] Connection id "0HMHVKA7021HU" accepted.
+2022-05-27 16:02:15.655 +10:00 [DBG] Connection id "0HMHVKA7021HU" started.
+2022-05-27 16:02:15.656 +10:00 [DBG] Connection id "0HMHVKA7021HT" started.
+2022-05-27 16:02:15.685 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:02:15.686 +10:00 [DBG] Connection id "0HMHVKA7021HT" stopped.
+2022-05-27 16:02:15.687 +10:00 [DBG] Connection id "0HMHVKA7021HT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:02:15.687 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:02:15.688 +10:00 [DBG] Connection id "0HMHVKA7021HU" stopped.
+2022-05-27 16:02:15.688 +10:00 [DBG] Connection id "0HMHVKA7021HU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:02:15.689 +10:00 [DBG] Connection id "0HMHVKA7021HV" accepted.
+2022-05-27 16:02:15.689 +10:00 [DBG] Connection id "0HMHVKA7021HV" started.
+2022-05-27 16:02:15.690 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:02:15.690 +10:00 [DBG] Connection id "0HMHVKA7021HV" stopped.
+2022-05-27 16:02:15.690 +10:00 [DBG] Connection id "0HMHVKA7021HV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:03:14.176 +10:00 [DBG] Connection id "0HMHVKA7021I0" accepted.
+2022-05-27 16:03:14.176 +10:00 [DBG] Connection id "0HMHVKA7021I1" accepted.
+2022-05-27 16:03:14.176 +10:00 [DBG] Connection id "0HMHVKA7021I1" started.
+2022-05-27 16:03:14.176 +10:00 [DBG] Connection id "0HMHVKA7021I0" started.
+2022-05-27 16:03:14.218 +10:00 [DBG] Connection id "0HMHVKA7021I1" received FIN.
+2022-05-27 16:03:14.218 +10:00 [DBG] Connection id "0HMHVKA7021I0" received FIN.
+2022-05-27 16:03:14.219 +10:00 [DBG] Connection id "0HMHVKA7021I2" accepted.
+2022-05-27 16:03:14.220 +10:00 [DBG] Connection id "0HMHVKA7021I2" started.
+2022-05-27 16:03:14.221 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:03:14.221 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:03:14.223 +10:00 [DBG] Connection id "0HMHVKA7021I0" stopped.
+2022-05-27 16:03:14.223 +10:00 [DBG] Connection id "0HMHVKA7021I1" stopped.
+2022-05-27 16:03:14.224 +10:00 [DBG] Connection id "0HMHVKA7021I0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:03:14.224 +10:00 [DBG] Connection id "0HMHVKA7021I1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:03:14.248 +10:00 [DBG] Connection 0HMHVKA7021I2 established using the following protocol: "Tls12"
+2022-05-27 16:03:14.298 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/ - -
+2022-05-27 16:03:14.299 +10:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-05-27 16:03:14.346 +10:00 [DBG] The request path  does not match the path filter
+2022-05-27 16:03:14.375 +10:00 [DBG] No candidates found for the request path '/'
+2022-05-27 16:03:14.375 +10:00 [DBG] Request did not match any endpoints
+2022-05-27 16:03:14.418 +10:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-05-27 16:03:14.420 +10:00 [DBG] Connection id "0HMHVKA7021I2" completed keep alive response.
+2022-05-27 16:03:14.421 +10:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/ - - - 404 0 - 125.3485ms
+2022-05-27 16:03:27.693 +10:00 [DBG] Connection id "0HMHVKA7021I3" accepted.
+2022-05-27 16:03:27.693 +10:00 [DBG] Connection id "0HMHVKA7021I3" started.
+2022-05-27 16:03:27.709 +10:00 [DBG] Connection id "0HMHVKA7021I3" received FIN.
+2022-05-27 16:03:27.709 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:03:27.709 +10:00 [DBG] Connection id "0HMHVKA7021I3" stopped.
+2022-05-27 16:03:27.709 +10:00 [DBG] Connection id "0HMHVKA7021I3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:03:27.716 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger - -
+2022-05-27 16:03:27.718 +10:00 [DBG] Connection id "0HMHVKA7021I2" completed keep alive response.
+2022-05-27 16:03:27.719 +10:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger - - - 301 0 - 2.1778ms
+2022-05-27 16:03:27.726 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/index.html - -
+2022-05-27 16:03:27.801 +10:00 [DBG] Connection id "0HMHVKA7021I2" completed keep alive response.
+2022-05-27 16:03:27.801 +10:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/index.html - - - 200 - text/html;charset=utf-8 74.9700ms
+2022-05-27 16:03:27.842 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui.css - -
+2022-05-27 16:03:27.844 +10:00 [DBG] Connection id "0HMHVKA7021I4" accepted.
+2022-05-27 16:03:27.844 +10:00 [DBG] Connection id "0HMHVKA7021I4" started.
+2022-05-27 16:03:27.844 +10:00 [DBG] Connection id "0HMHVKA7021I5" accepted.
+2022-05-27 16:03:27.844 +10:00 [DBG] Connection id "0HMHVKA7021I5" started.
+2022-05-27 16:03:27.864 +10:00 [DBG] Connection id "0HMHVKA7021I4" received FIN.
+2022-05-27 16:03:27.864 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:03:27.864 +10:00 [DBG] Connection id "0HMHVKA7021I4" stopped.
+2022-05-27 16:03:27.864 +10:00 [DBG] Connection id "0HMHVKA7021I4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:03:27.864 +10:00 [DBG] Connection id "0HMHVKA7021I6" accepted.
+2022-05-27 16:03:27.865 +10:00 [DBG] Connection id "0HMHVKA7021I6" started.
+2022-05-27 16:03:27.867 +10:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-05-27 16:03:27.867 +10:00 [DBG] Connection id "0HMHVKA7021I2" completed keep alive response.
+2022-05-27 16:03:27.867 +10:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui.css - - - 200 143632 text/css 25.0589ms
+2022-05-27 16:03:27.867 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-standalone-preset.js - -
+2022-05-27 16:03:27.883 +10:00 [DBG] Connection id "0HMHVKA7021I5" received FIN.
+2022-05-27 16:03:27.884 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:03:27.884 +10:00 [DBG] Connection id "0HMHVKA7021I7" accepted.
+2022-05-27 16:03:27.884 +10:00 [DBG] Connection id "0HMHVKA7021I5" stopped.
+2022-05-27 16:03:27.884 +10:00 [DBG] Connection id "0HMHVKA7021I5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:03:27.884 +10:00 [DBG] Connection id "0HMHVKA7021I7" started.
+2022-05-27 16:03:27.887 +10:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-05-27 16:03:27.891 +10:00 [DBG] Connection id "0HMHVKA7021I2" completed keep alive response.
+2022-05-27 16:03:27.891 +10:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 24.0064ms
+2022-05-27 16:03:27.892 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-bundle.js - -
+2022-05-27 16:03:27.899 +10:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-05-27 16:03:27.900 +10:00 [DBG] Connection id "0HMHVKA7021I2" completed keep alive response.
+2022-05-27 16:03:27.900 +10:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 8.2771ms
+2022-05-27 16:03:27.904 +10:00 [DBG] Connection 0HMHVKA7021I6 established using the following protocol: "Tls12"
+2022-05-27 16:03:27.919 +10:00 [DBG] Connection 0HMHVKA7021I7 established using the following protocol: "Tls12"
+2022-05-27 16:03:28.143 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/swagger/v1/swagger.json - -
+2022-05-27 16:03:28.308 +10:00 [DBG] Connection id "0HMHVKA7021I2" completed keep alive response.
+2022-05-27 16:03:28.308 +10:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.8801ms
+2022-05-27 16:05:39.007 +10:00 [DBG] Connection id "0HMHVKA7021I6" disconnecting.
+2022-05-27 16:05:39.007 +10:00 [DBG] Connection id "0HMHVKA7021I7" disconnecting.
+2022-05-27 16:05:39.007 +10:00 [DBG] Connection id "0HMHVKA7021I2" disconnecting.
+2022-05-27 16:05:39.008 +10:00 [DBG] Connection id "0HMHVKA7021I7" stopped.
+2022-05-27 16:05:39.008 +10:00 [DBG] Connection id "0HMHVKA7021I6" stopped.
+2022-05-27 16:05:39.008 +10:00 [DBG] Connection id "0HMHVKA7021I7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:05:39.008 +10:00 [DBG] Connection id "0HMHVKA7021I2" stopped.
+2022-05-27 16:05:39.009 +10:00 [DBG] Connection id "0HMHVKA7021I6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:05:39.009 +10:00 [DBG] Connection id "0HMHVKA7021I2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:11:43.511 +10:00 [DBG] Connection id "0HMHVKA7021I8" accepted.
+2022-05-27 16:11:43.511 +10:00 [DBG] Connection id "0HMHVKA7021I8" started.
+2022-05-27 16:11:43.524 +10:00 [DBG] Connection id "0HMHVKA7021I8" received FIN.
+2022-05-27 16:11:43.524 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-27 16:11:43.524 +10:00 [DBG] Connection id "0HMHVKA7021I9" accepted.
+2022-05-27 16:11:43.524 +10:00 [DBG] Connection id "0HMHVKA7021I8" stopped.
+2022-05-27 16:11:43.524 +10:00 [DBG] Connection id "0HMHVKA7021I9" started.
+2022-05-27 16:11:43.524 +10:00 [DBG] Connection id "0HMHVKA7021I8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-27 16:11:43.538 +10:00 [DBG] Connection 0HMHVKA7021I9 established using the following protocol: "Tls12"
+2022-05-27 16:11:43.539 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/api/cities?pageNumber=1&pageSize=10 - -
+2022-05-27 16:11:43.539 +10:00 [DBG] The request path  does not match the path filter
+2022-05-27 16:11:43.547 +10:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2022-05-27 16:11:43.551 +10:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2022-05-27 16:11:43.552 +10:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2022-05-27 16:11:43.552 +10:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-05-27 16:11:43.557 +10:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2022-05-27 16:11:43.566 +10:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-05-27 16:11:43.566 +10:00 [DBG] Connection id "0HMHVKA7021I9" completed keep alive response.
+2022-05-27 16:11:43.566 +10:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/api/cities?pageNumber=1&pageSize=10 - - - 401 0 - 27.3527ms
+2022-05-27 16:13:54.422 +10:00 [DBG] Connection id "0HMHVKA7021I9" disconnecting.
+2022-05-27 16:13:54.423 +10:00 [DBG] Connection id "0HMHVKA7021I9" stopped.
+2022-05-27 16:13:54.423 +10:00 [DBG] Connection id "0HMHVKA7021I9" sending FIN because: "The Socket transport's send loop completed gracefully."

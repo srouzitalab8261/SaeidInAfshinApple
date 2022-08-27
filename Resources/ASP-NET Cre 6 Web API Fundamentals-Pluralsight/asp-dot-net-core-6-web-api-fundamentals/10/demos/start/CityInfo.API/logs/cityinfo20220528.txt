@@ -1,0 +1,40 @@
+2022-05-28 14:45:17.157 +10:00 [DBG] Connection id "0HMHVKA7021IA" accepted.
+2022-05-28 14:45:17.251 +10:00 [DBG] Connection id "0HMHVKA7021IA" started.
+2022-05-28 14:45:17.251 +10:00 [DBG] Connection id "0HMHVKA7021IB" accepted.
+2022-05-28 14:45:17.251 +10:00 [DBG] Connection id "0HMHVKA7021IB" started.
+2022-05-28 14:45:17.393 +10:00 [DBG] Connection id "0HMHVKA7021IA" received FIN.
+2022-05-28 14:45:17.395 +10:00 [DBG] Connection id "0HMHVKA7021IB" received FIN.
+2022-05-28 14:45:17.398 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-28 14:45:17.415 +10:00 [DBG] Connection id "0HMHVKA7021IA" stopped.
+2022-05-28 14:45:17.398 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-05-28 14:45:17.405 +10:00 [DBG] Connection id "0HMHVKA7021IC" accepted.
+2022-05-28 14:45:17.415 +10:00 [DBG] Connection id "0HMHVKA7021IB" stopped.
+2022-05-28 14:45:17.415 +10:00 [DBG] Connection id "0HMHVKA7021IC" started.
+2022-05-28 14:45:17.416 +10:00 [DBG] Connection id "0HMHVKA7021IB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-28 14:45:17.416 +10:00 [DBG] Connection id "0HMHVKA7021IA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-28 14:45:17.452 +10:00 [DBG] Connection 0HMHVKA7021IC established using the following protocol: "Tls12"
+2022-05-28 14:45:17.484 +10:00 [INF] Request starting HTTP/1.1 GET https://localhost:7169/api/cities?pageNumber=1&pageSize=10 - -
+2022-05-28 14:45:17.636 +10:00 [DBG] The request path  does not match the path filter
+2022-05-28 14:45:17.646 +10:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2022-05-28 14:45:17.648 +10:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2022-05-28 14:45:17.651 +10:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2022-05-28 14:45:17.675 +10:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-05-28 14:45:17.681 +10:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2022-05-28 14:45:17.683 +10:00 [INF] AuthenticationScheme: Bearer was challenged.
+2022-05-28 14:45:17.684 +10:00 [DBG] Connection id "0HMHVKA7021IC" completed keep alive response.
+2022-05-28 14:45:17.685 +10:00 [INF] Request finished HTTP/1.1 GET https://localhost:7169/api/cities?pageNumber=1&pageSize=10 - - - 401 0 - 208.1751ms
+2022-05-28 14:46:22.390 +10:00 [DBG] Connection id "0HMHVKA7021IC" received FIN.
+2022-05-28 14:46:22.398 +10:00 [DBG] Connection id "0HMHVKA7021IC" disconnecting.
+2022-05-28 14:46:22.414 +10:00 [DBG] Connection id "0HMHVKA7021IC" sending FIN because: "The client closed the connection."
+2022-05-28 14:46:22.418 +10:00 [DBG] Connection id "0HMHVKA7021IC" stopped.

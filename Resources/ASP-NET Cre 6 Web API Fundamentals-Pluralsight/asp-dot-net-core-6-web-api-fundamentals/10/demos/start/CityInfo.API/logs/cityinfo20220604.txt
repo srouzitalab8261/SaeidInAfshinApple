@@ -1,0 +1,25 @@
+2022-06-04 18:17:39.942 +10:00 [DBG] Connection id "0HMHVKA7021ID" accepted.
+2022-06-04 18:17:39.968 +10:00 [DBG] Connection id "0HMHVKA7021IE" accepted.
+2022-06-04 18:17:39.968 +10:00 [DBG] Connection id "0HMHVKA7021ID" started.
+2022-06-04 18:17:39.983 +10:00 [DBG] Connection id "0HMHVKA7021IE" started.
+2022-06-04 18:17:40.022 +10:00 [DBG] Connection id "0HMHVKA7021ID" received FIN.
+2022-06-04 18:17:40.025 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-06-04 18:17:40.043 +10:00 [DBG] Connection id "0HMHVKA7021IE" received FIN.
+2022-06-04 18:17:40.043 +10:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+AppleCrypto+SslException: unknown certificate
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-06-04 18:17:53.708 +10:00 [DBG] Connection id "0HMHVKA7021ID" stopped.
+2022-06-04 18:17:53.735 +10:00 [DBG] Connection id "0HMHVKA7021IE" stopped.
+2022-06-04 18:17:53.735 +10:00 [DBG] Connection id "0HMHVKA7021ID" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-06-04 18:17:53.735 +10:00 [DBG] Connection id "0HMHVKA7021IE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-06-04 18:18:41.304 +10:00 [INF] Application is shutting down...
+2022-06-04 18:18:41.318 +10:00 [DBG] Hosting stopping
+2022-06-04 18:18:41.408 +10:00 [DBG] Hosting stopped
